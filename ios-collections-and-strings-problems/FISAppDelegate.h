@@ -6,10 +6,16 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-/**
- 
- * Declare your methods here!
- 
- */
+-(NSArray *)returnInAFrame:(NSArray *)wordsToBeFramed
+          frameConstructor:(NSString *)frameConstructor;
+
+-(NSString *)pigLatinResult:(NSString *)englishString;
+
+-(NSArray *)zip:(NSArray *)arrayOne
+               :(NSArray *)arrayTwo;
+
+-(NSArray *)numberArrayFromNumber:(NSUInteger)numberToSeperate;
+
+-(NSString *)stringByReversingString:(NSString *)stringToReverse;
 
 @end
